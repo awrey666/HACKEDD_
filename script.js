@@ -9,7 +9,7 @@ if (localStorage.getItem("error") == "true") {
     error.classList.add("display_flex")
     warn.innerHTML = `У вас закончились попытки`
 }
-else if(localStorage.getItem("error") == "folse"){
+else if(localStorage.getItem("error") == "false"){
     succes.classList.add("display_flex")
     warn.innerHTML = ``
 }
@@ -26,8 +26,7 @@ else {
             }
             else if (Number(x) == 6) {
                 succes.classList.add("display_flex")
-                localStorage.setItem("error", folse)
-
+                localStorage.setItem("error", false)
             }
             if (turn == 0) {
                 error.classList.add("display_flex")
