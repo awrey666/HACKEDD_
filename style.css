@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    max-width: 600px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.center {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title {
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
+.title_text {
+    font-size: 18px;
+}
+
+.form_box {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3px;
+    padding: 15px;
+}
+
+.form {
+    display: flex;
+
+}
+
+.input {
+    width: 200px;
+    height: 35px;
+    border-radius: 9px 0px 0px 9px;
+    border: 2px solid red;
+    border-right: 1px solid red;
+    padding-left: 10px;
+}
+
+.btn {
+    border-radius: 0px 9px 9px 0px;
+    border: 2px solid red;
+    border-left: 1px solid red;
+    padding: 0px 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 238, 238);
+    cursor: pointer;
+
+}
+.form_warn{
+    font-size: 8px;
+    margin-left: 50px;
+    color: orangered;
+}
+
+.error{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(101, 100, 100, 0.677);
+}
+.delete_text{
+    text-align: center;
+    font-size: 18px;
+    color: darkred;
+}
+
+.succes{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(101, 100, 100, 0.677);
+}
+.end_text{
+    text-align: center;
+    color: green;
+    font-size: 20px;
+}
+
+
+
+.display_flex{
+    display: flex;
+}
